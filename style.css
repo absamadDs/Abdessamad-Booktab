@@ -1,0 +1,257 @@
+button.navbar-toggler i {
+   color: rgb(231, 177, 13);
+}
+
+.yellow-line {
+   margin-bottom: 0;
+   border-top: 4px solid;
+   color: rgb(231, 177, 13);
+   opacity: 100%;
+   margin-top: 0;
+}
+
+.bg-image2 {
+   height: 100%;
+   background-image: url("books2.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   transform: scale(1.1);
+   transition: transform 0.5s ease-out;
+
+}
+
+.bg-image2:hover {
+   transform: scale(1);
+   /* Zoom out to normal size on hover */
+}
+
+.bg-image {
+   height: 100%;
+   background-image: url("man-1853961_1280.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   -ms-zoom-animation: var(--bs-btn-hover-bg);
+}
+
+.text-container {
+   display: left;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   /* Adjust this to change the height of the text container */
+   width: 50%;
+   /* Adjust this to change the width of the text container */
+   text-align: left;
+   padding-top: 45px;
+   padding-left: 40px;
+   opacity: 100%;
+}
+
+.text1 {
+   color: black;
+}
+
+.line-1 {
+   color: rgb(137, 129, 33);
+
+}
+
+.line-2,
+.line-3 {
+   color: rgb(77, 75, 27);
+
+}
+
+.btn-primary {
+   background-color: rgb(137, 129, 33);
+   color: white;
+   font-size: 10px;
+   /* Adjust this to change the size of the text */
+   padding: 8px 12px;
+   /* Adjust this to change the size of the button */
+   --bs-btn-hover-color: var(--bs-black);
+   --bs-btn-hover-bg: rgb(231, 177, 13);
+}
+
+.yellow-border {
+   border: 2px solid rgb(231, 177, 13);
+   padding: 0px;
+   margin: 5px 50px;
+   margin-top: 0px;
+}
+
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
+
+.line-Alpha {
+   color: rgb(77, 75, 27);
+   margin: 10px 10px;
+   text-align: left;
+   opacity: 0%;
+   padding-left: 49px;
+}
+
+.col {
+   margin-left: 20px;
+   margin-top: 40px;
+   margin-bottom: 150px;
+   padding: 70px 1px;
+}
+
+.text2 {
+   color: black;
+   margin: 15px 10px;
+   text-align: left;
+   position: relative;
+   opacity: 0%;
+   padding-left: 50px;
+}
+
+.bg-image2:hover .text2,
+.bg-image2:hover .line-Alpha {
+   animation: fadeIn 1s ease-out 0.5s;
+   /* Start after 0.5s */
+   animation-fill-mode: forwards;
+   /* Keep the end state */
+   opacity: 0;
+   /* Start invisible */
+}
+
+.boton2 {
+   margin: 10px 10px;
+   text-align: left;
+   margin-left: 0px;
+   margin-top: 15px;
+
+}
+
+.bg-image2:hover .boton2 {
+   animation: fadeIn 0.5s ease-out 0.75s;
+   /* Start after 0.5s */
+   animation-fill-mode: forwards;
+   /* Keep the end state */
+   opacity: 0;
+}
+
+.text-start {
+   padding-left: 47px;
+}
+
+.display-6 {
+   color: gray;
+   font-weight: var(--bs-btn-hover-color);
+   padding-left: 0px;
+}
+
+.alpha {
+   margin-right: 1px;
+   margin-left: 40px;
+   margin-top: 0px;
+   padding-bottom: 0px;
+}
+
+#tooltip {
+   display: none;
+   position: absolute;
+   background: #333;
+   color: #fff;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.rounded {
+   padding-bottom: 0px;
+   margin-bottom: 5px;
+}
+
+.texto {
+   color: black;
+   font-size: large;
+   margin-bottom: 5px;
+}
+
+.container.text-center.cont3 {
+   margin-bottom: 0px;
+}
+
+.container.text-center.cont4 {
+   margin-top: -120px;
+   margin-left: -20px;
+   color: gray;
+}
+
+.texto2 {
+   color: black;
+   font-size: 20px;
+   margin-top: 60px;
+   margin-left: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: black;
+}
+
+.text-sec {
+   margin-top: 10px;
+   margin-left: 95px;
+}
+
+.row.text-start.bg-body-tertiary {
+   margin: 10px -85px;
+}
+
+.fs-3.fw-semibold {
+   margin-left: 95px;
+   color: rgb(137, 129, 33);
+}
+
+.downSS {
+   background-color: rgb(246, 241, 227);
+   margin-right: -85px;
+   margin-left: -42px;
+   margin-bottom: -100px;
+   padding-bottom: -100px;
+   padding-left: 41px;
+   padding-top: 0px;
+   margin-top: -20px;
+   padding-top: 0px;
+}
+
+.col.tobl {
+   padding-top: 60px;
+   margin-bottom: 20px;
+}
+
+.h66 {
+   color: rgb(137, 129, 33);
+}
+
+.downS {
+   color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hhh {
+   font-size: 25px;
+   margin: 0px 5px;
+   color: #333;
+}
+
+.abb {
+   margin-top: 40px;
+   margin-left: -90px;
+   margin-bottom: -80px;
+   font-size: small;
+   color: black;
+}
+
+.booktab {
+   margin-top: -40px;
+}
